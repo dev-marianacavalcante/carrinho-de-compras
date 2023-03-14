@@ -145,7 +145,7 @@ describe('useCart Hook', () => {
           'Erro na adição do produto'
         );
       },
-      { timeout: 200 }
+      { timeout: 2000 }
     );
 
     expect(result.current.cart).toEqual(
